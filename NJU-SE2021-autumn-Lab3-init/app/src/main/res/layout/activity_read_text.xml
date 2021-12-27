@@ -9,21 +9,6 @@
         android:id="@+id/search_wrapper"
         layout="@layout/search_bar" />
 
-    <EditText
-        android:id="@+id/editTextTextPersonName"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:hint="@string/edit_message"
-        android:inputType="textPersonName" />
-
-    <Button
-        android:id="@+id/button"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@drawable/fastscroller_handle_vertical"
-        android:text="@string/button_send" />
-
     <ScrollView
         android:id="@+id/read_text_holder"
         android:layout_width="match_parent"
